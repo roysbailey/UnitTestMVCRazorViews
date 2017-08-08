@@ -1,0 +1,36 @@
+﻿@model PagedList.IPagedList<MVCSampleUnitTestPagerView.Models.CricketerProfile> 
+@using PagedList
+@using PagedList.Mvc
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+<table class="table">
+    <tr>
+        <th>
+            Name
+        </th>
+        <th>
+            Test Runs
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TestRuns)
+        </td>
+    </tr>
+}
+
+@Html.PagedListPager(Model, page => Url.Action("Index", new { page = page }))
+
+</table>

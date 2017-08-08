@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.15
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCSampleUnitTestPagerView", "MVCSampleUnitTestPagerView\MVCSampleUnitTestPagerView.csproj", "{B4319242-8AB6-4F50-9581-85C06A4B4940}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCSampleUnitTestPagerView.Tests", "MVCSampleUnitTestPagerView.Tests\MVCSampleUnitTestPagerView.Tests.csproj", "{21A42B29-1ED8-4E86-9218-01D26384E9D6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2ACCD876-78B9-4C13-9803-6E3BBDBF0B2A}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		readme.md = readme.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B4319242-8AB6-4F50-9581-85C06A4B4940}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4319242-8AB6-4F50-9581-85C06A4B4940}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4319242-8AB6-4F50-9581-85C06A4B4940}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4319242-8AB6-4F50-9581-85C06A4B4940}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21A42B29-1ED8-4E86-9218-01D26384E9D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21A42B29-1ED8-4E86-9218-01D26384E9D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21A42B29-1ED8-4E86-9218-01D26384E9D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21A42B29-1ED8-4E86-9218-01D26384E9D6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
